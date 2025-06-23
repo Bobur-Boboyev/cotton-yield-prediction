@@ -10,7 +10,6 @@ This project is a simple yet powerful machine learning tool that predicts **cott
 - Train a Linear Regression model on your data
 - Predict cotton yield with new inputs
 - Visualize the relationship between yield and features
-- Log all predictions with timestamps
 - Easy to use terminal menu
 
 ---
