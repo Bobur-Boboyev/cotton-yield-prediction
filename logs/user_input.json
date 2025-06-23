@@ -1,0 +1,11 @@
+[
+    {
+        "rainfall_mm":100.0,
+        "fertilizer_kg":50.0,
+        "seed_quality":5.0,
+        "irrigation_count":3,
+        "land_hectare":10.0,
+        "cotton_prediction":10.16,
+        "status":"valid"
+    }
+]
