@@ -18,4 +18,5 @@ def visualize_data():
     plt.ylabel("total yield (tons)", size = 12)
     plt.grid(True)
     plt.legend()
+    plt.savefig("visualizations/cotton.png")
     plt.show()
