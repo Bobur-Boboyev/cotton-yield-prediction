@@ -1,11 +1,11 @@
 
-# 🌾 Cotton Yield Predictor
+# Cotton Yield Predictor
 
 This project is a simple yet powerful machine learning tool that predicts **cotton yield (in tons)** based on agricultural input data such as rainfall, fertilizer, seed quality, irrigation count, and land size.
 
 ---
 
-## 📌 Features
+## Features
 
 - Train a Linear Regression model on your data
 - Predict cotton yield with new inputs
@@ -14,27 +14,7 @@ This project is a simple yet powerful machine learning tool that predicts **cott
 
 ---
 
-## 📁 Project Structure
-
-```
-cotton-yield-predictor/
-│
-├── data/                 → CSV file with sample data
-├── models/               → Trained ML model (.pkl)
-├── logs/                 → Prediction logs in JSON format
-├── visualizations/       → Plots and graphs
-│
-├── train.py              → Train and save the model
-├── predict.py            → Input values and predict yield
-├── visualize.py          → Show data trends
-├── main.py               → Menu-driven interface
-├── requirements.txt      → Python dependencies
-└── README.md             → Project overview
-```
-
----
-
-## ⚙️ Installation
+## Installation
 
 ```bash
 git clone https://github.com/Bobur-Boboyev/cotton-yield-predictor.git
@@ -44,7 +24,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ How to Use
+## How to Use
 
 ### 1. Run the main menu:
 ```bash
@@ -61,7 +41,7 @@ python main.py
 
 ---
 
-## 🧠 Model
+## Model
 
 The model used is **Linear Regression** from scikit-learn. It was trained on sample cotton farming data with the following features:
 
@@ -75,7 +55,7 @@ Target: `total_yield_ton`
 
 ---
 
-## 📊 Example Visualization
+## Example Visualization
 
 > Area and yield:
 
@@ -83,7 +63,7 @@ Target: `total_yield_ton`
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 - Python 3.8+
 - pandas
