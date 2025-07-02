@@ -33,4 +33,4 @@ def make_prediction():
     input_data["cotton_prediction"] = round(predicted_yield, 2)
     input_data.to_json("logs/user_input.json", orient='records', indent=4)
 
-    print(f"\n✅ Predicted cotton yield: {round(predicted_yield, 2)} tons")
+    print(f"\nPredicted cotton yield: {round(predicted_yield, 2)} tons")
